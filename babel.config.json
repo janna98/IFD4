@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "> 0.4%"
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"],
+  "overrides": [
+    {
+      "test": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "compact": false
+    }
+  ]
+}

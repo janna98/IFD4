@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin: 50px;
+}
+.flex-box {
+  display: flex;
+  font-size: 2em;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex-box-wrap {
+  display: flex;
+  font-size: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.number-input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.start-button {
+  background-color: darkseagreen;
+  padding: 10px;
+}
+#root {
+  width: 50%;
+  display: inline-flex;
+}
+.green-result {
+  color: darkgreen;
+}
+.red-result {
+  color: darkred;
+}
+.orange-result {
+  color: darkorange;
+}
